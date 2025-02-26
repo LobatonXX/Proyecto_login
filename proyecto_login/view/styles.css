@@ -1,0 +1,81 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /*Tipo de letra*/
+    background-color: #f6f6f4;  
+    text-align: center; 
+    padding: 50px; /* Espacio alrededor del contenido */
+    margin: 0;
+}
+
+/* Estilos para los formularios */
+form {
+    background: #ffffff; 
+    padding: 40px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    width: 350px;  /* Ancho del formulario */
+}
+.container{
+    background: #ffffff; 
+    padding: 40px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    width: 350px;  /* Ancho del formulario */
+}
+
+/* Estilos para los títulos de segundo nivel */
+h2 {
+    color: #241c15;  
+    margin-bottom: 20px; 
+    font-size: 28px; 
+}
+
+/* Estilos para los campos de entrada (input) */
+input {
+    margin: 10px 0; 
+    padding: 12px; 
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #f0f4ff;  
+    box-sizing: border-box;  /* Evita que el padding aumente el tamaño del input */
+    font-size: 16px; 
+}
+
+/* Estilos para los botones */
+button {
+    padding: 12px 20px; 
+    background-color: #007c89;  
+    color: white;
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer; 
+    font-size: 18px; 
+    width: 100%; 
+}
+
+/* Efecto cuando el cursor pasa sobre el botón */
+button:hover {
+    background-color: #005f66;  
+}
+
+/* Estilos para los enlaces generales */
+a {
+    color: #007c89; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+/* Efecto cuando el cursor pasa sobre un enlace */
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-top: 15px;
+    font-size: 14px; 
+    color: #241c15; 
+}
